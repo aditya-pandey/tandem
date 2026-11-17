@@ -1,6 +1,6 @@
-/* Tandem offline shell. Generated at build time: d7f287a5a8af */
-const CACHE = 'tandem-shell-d7f287a5a8af';
-const FILES = ["./","apple-touch-icon.png","assets/bricolage-grotesque-latin-ext-opsz-normal-IcJDqblK.woff2","assets/bricolage-grotesque-latin-opsz-normal-Cre6nC2_.woff2","assets/bricolage-grotesque-vietnamese-opsz-normal-D9N6E8K1.woff2","assets/index-B94cdDrw.js","assets/index-Bo8FYtW_.css","assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2","assets/inter-cyrillic-wght-normal-DqGufNeO.woff2","assets/inter-greek-ext-wght-normal-DlzME5K_.woff2","assets/inter-greek-wght-normal-CkhJZR-_.woff2","assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2","assets/inter-latin-wght-normal-Dx4kXJAl.woff2","assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2","favicon.ico","icon-192.png","icon-512.png","icon-maskable-512.png","icon.svg","manifest.webmanifest"];
+/* Tandem offline shell. Generated at build time: 1bec226834eb */
+const CACHE = 'tandem-shell-1bec226834eb';
+const FILES = ["./","apple-touch-icon.png","assets/bricolage-grotesque-latin-ext-opsz-normal-IcJDqblK.woff2","assets/bricolage-grotesque-latin-opsz-normal-Cre6nC2_.woff2","assets/bricolage-grotesque-vietnamese-opsz-normal-D9N6E8K1.woff2","assets/index-DPcUfC2_.css","assets/index-EHfEwWow.js","assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2","assets/inter-cyrillic-wght-normal-DqGufNeO.woff2","assets/inter-greek-ext-wght-normal-DlzME5K_.woff2","assets/inter-greek-wght-normal-CkhJZR-_.woff2","assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2","assets/inter-latin-wght-normal-Dx4kXJAl.woff2","assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2","favicon.ico","icon-192.png","icon-512.png","icon-maskable-512.png","icon.svg","manifest.webmanifest"];
 // Hosts often add a Vary header (Origin, Accept-Encoding). The cached copy is right regardless, so ignore it.
 const MATCH = { ignoreSearch: true, ignoreVary: true };
 
