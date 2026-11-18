@@ -1,3 +1,3 @@
 [build]
-  command = "echo Nothing to build"
+  command = '''node -e 'const fs=require("fs"),u=(process.env.URL||process.env.DEPLOY_PRIME_URL||"").trim().replace(/\/+$/,"");if(u){let h=fs.readFileSync("index.html","utf8").replaceAll("./og-image.png",u+"/og-image.png").replace("<meta property=\"og:url\" content=\"./\"","<meta property=\"og:url\" content=\""+u+"/\"");if(u.startsWith("https://")){h=h.replace("<meta property=\"og:image\" content=\""+u+"/og-image.png\" />","<meta property=\"og:image\" content=\""+u+"/og-image.png\" />\n    <meta property=\"og:image:secure_url\" content=\""+u+"/og-image.png\" />");}fs.writeFileSync("index.html",h);}' '''
   publish = "."
