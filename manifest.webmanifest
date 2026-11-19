@@ -17,5 +17,14 @@
   "shortcuts": [
     { "name": "Today", "url": "./#/today" },
     { "name": "Tasks", "url": "./#/tasks" }
-  ]
+  ],
+  "share_target": {
+    "action": "./",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }
